@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			#img{
+				width:1002px;
+				height: 193px;
+				position: relative;
+			}
+			ul,li{
+				list-style: none;
+			}
+			#img ul{
+				position: absolute;
+				right: 10px;
+				bottom: 0px;
+			}
+			#img li{
+				float: left;
+				width:25px;
+				height:25px;
+				background-color:red;
+				margin:5px;
+				text-align: center;
+				line-height: 25px;
+				cursor: pointer;
+				color: white;
+			}
+		</style>
+	</head>
+	<body>
+		
+		<div id="img">
+			<ul>
+				<li onmouseover="selectImg(1)">1</li>
+				<li onmouseover="selectImg(2)">2</li>
+				<li onmouseover="selectImg(this.innerText)">3</li>
+			</ul>
+		</div>
+		<script type="text/javascript">
+			var i = 1 ; //控制图片的全局变量
+			var timer = null;		//保存定时器
+			function changeImg(){			//修改图片
+				var img = document.querySelector("#img");
+				img.style.backgroundImage = "url(img/imgs/banner"+i+".jpg)";	//设置图片
+				clearStyle();
+				var li = document.querySelector("#img").querySelectorAll("li");	//获取所有li
+				li[i-1].style.background = "lightblue";
+				i++;		
+				if(i > 3)
+					i = 1;
+			}
+			function clearStyle(){		//清空样式
+				var li = document.querySelector("#img").querySelectorAll("li");	//获取所有li
+				for(var x = 0 ; x < li.length ; x++){
+					li[x].style.background = "red";
+				}
+			}
+			function stop(){	//停止轮播
+				clearInterval(timer);
+			}
+			function start(){	//开始轮播
+				timer = setInterval(changeImg,1000);
+			}
+			function selectImg(index){	//选择图片
+				stop();
+				i = index;
+				changeImg();
+				start();
+			}
+			function init(){
+				changeImg();
+				start();
+			}
+			init();
+		</script>
+	</body>
+</html>

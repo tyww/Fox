@@ -1,0 +1,12 @@
+@font-face {
+  font-family:'myicon';
+  src: url('font/base64.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.icon
+{
+	font-family: myicon;
+	 font-style: normal;
+}

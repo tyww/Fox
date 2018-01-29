@@ -1,0 +1,27 @@
+C:\Users\狐狸\Desktop\Fox Net\Fox Net\Fox Net\bin\Fox Net.dll.config
+C:\Users\狐狸\Desktop\Fox Net\Fox Net\Fox Net\bin\Fox Net.dll
+C:\Users\狐狸\Desktop\Fox Net\Fox Net\Fox Net\bin\Fox Net.pdb
+C:\Users\狐狸\Desktop\Fox Net\Fox Net\Fox Net\obj\Debug\Fox Net.csprojResolveAssemblyReference.cache
+C:\Users\狐狸\Desktop\Fox Net\Fox Net\Fox Net\obj\Debug\Fox Net.csproj.CoreCompileInputs.cache
+C:\Users\狐狸\Desktop\Fox Net\Fox Net\Fox Net\obj\Debug\Fox Net.dll
+C:\Users\狐狸\Desktop\Fox Net\Fox Net\Fox Net\obj\Debug\Fox Net.pdb
+G:\桌面个人项目\Fox Net\Fox Net\Fox Net\bin\Fox Net.dll.config
+G:\桌面个人项目\Fox Net\Fox Net\Fox Net\bin\Fox Net.dll
+G:\桌面个人项目\Fox Net\Fox Net\Fox Net\bin\Fox Net.pdb
+G:\桌面个人项目\Fox Net\Fox Net\Fox Net\obj\Debug\Fox Net.csprojResolveAssemblyReference.cache
+G:\桌面个人项目\Fox Net\Fox Net\Fox Net\obj\Debug\Fox Net.csproj.CoreCompileInputs.cache
+G:\桌面个人项目\Fox Net\Fox Net\Fox Net\obj\Debug\Fox Net.dll
+G:\桌面个人项目\Fox Net\Fox Net\Fox Net\obj\Debug\Fox Net.pdb
+F:\桌面个人项目\Fox Net\Fox Net\Fox Net\bin\Fox Net.dll.config
+F:\桌面个人项目\Fox Net\Fox Net\Fox Net\bin\Fox Net.dll
+F:\桌面个人项目\Fox Net\Fox Net\Fox Net\bin\Fox Net.pdb
+F:\桌面个人项目\Fox Net\Fox Net\Fox Net\obj\Debug\Fox Net.csproj.CoreCompileInputs.cache
+F:\桌面个人项目\Fox Net\Fox Net\Fox Net\obj\Debug\Fox Net.dll
+F:\桌面个人项目\Fox Net\Fox Net\Fox Net\obj\Debug\Fox Net.pdb
+F:\桌面个人项目\Fox Net\Fox Net\Fox Net\obj\Debug\Fox Net.csprojResolveAssemblyReference.cache
+F:\桌面个人项目\Fox Net\Fox Net\Fox Net\bin\BLL.dll
+F:\桌面个人项目\Fox Net\Fox Net\Fox Net\bin\DAL.dll
+F:\桌面个人项目\Fox Net\Fox Net\Fox Net\bin\Model.dll
+F:\桌面个人项目\Fox Net\Fox Net\Fox Net\bin\BLL.pdb
+F:\桌面个人项目\Fox Net\Fox Net\Fox Net\bin\DAL.pdb
+F:\桌面个人项目\Fox Net\Fox Net\Fox Net\bin\Model.pdb

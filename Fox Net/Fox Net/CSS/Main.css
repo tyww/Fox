@@ -1,0 +1,102 @@
+﻿
+.div1{
+    float: left;
+    text-align:center;
+    font-family:STXingkai;
+    font-size:80px;
+    border:0px;
+}
+.bottom {
+    background-color:gray;
+    margin-left:0px; 
+    height: 157px; 
+    width: 3240px;
+    position:fixed;
+    bottom:0px;
+}
+.div2 {
+    float: left;
+    width: 206px;
+    height: 110px;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+.div_02 {
+    position: relative;
+    right: -1027px;
+    top: -85px;
+    width: 245px;
+    height: 22px;
+}
+.div3{
+    float:left;
+    border:solid 1px #ff0000;
+    width:30%
+}
+.div4 {
+    float: right;
+    width: 100%;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    border:0px;
+}
+.div5 {
+    width: 216px;
+    float: left;
+    height: 126px;
+}
+/*------------------neck------------------------*/
+.neck .ltd {
+    float: left;
+
+    border:0px;
+    /*border-top: 10px solid rgba(105, 102, 102, 0.5);
+    border-right: 10px solid rgba(200,200,200,0.5);
+    border-bottom: 10px solid rgba(200,200,200,0.75);
+    border-left: 10px solid rgba(200,200,200,1);*/
+}
+.neck .rtd {
+    float: right;
+    width: 800px;
+    border:0px;
+}
+/*-----------------------#FF0000-----------------------*/
+.ltd{
+    width:250px;
+    border:solid 1px ;
+    text-align:left;
+    vertical-align:top;
+}
+.rtd{
+    text-align:left;
+    border:solid 1px;
+    height:100%;
+    vertical-align:top;
+}
+/*---------------------------中间两个div--------------------------*/
+.start {
+    float: left;
+    width: 30%;
+    border: 0px;
+}
+.date{
+    float:right;
+    width:69%;
+    border:0px ;
+}
+.base {
+    float: right;
+    width: 100%;
+    padding-bottom: 0px;
+    border:0px;
+}
+/*.blur {
+    filter: blur(100%);
+    -webkit-filter: blur(100%);
+    -moz-filter: blur(100%);
+    -ms-filter: blur(100%);
+    -o-filter: blur(100%);
+}*/
+.brightness{
+    -webkit-filter:o
+}

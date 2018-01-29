@@ -1,0 +1,291 @@
+﻿#One {
+    border: solid 1px #ffffff;
+    display: flex; /*设置为容器*/
+    flex-direction: column; /*deiv列排排列*/
+    width: 1350px;
+    height: 100%;
+}
+
+.div1 {
+    flex-direction: row;
+    background: #c7c0c0;
+    height: 100px;
+    width: 100%;
+    border: solid 1px #c7c0c0;
+}
+
+.logo {
+    height: 45px;
+    width: 10%;
+    position: absolute; /*绝对定位 div1左边*/
+    top: 33px;
+    left: 200px;
+    bottom: 0;
+    right: 0;
+}
+
+#div_menu {
+    position: fixed;
+    top: 30px;
+    left: 30%;
+    bottom: 900px;
+    right: 45%;
+    position: absolute; /*绝对定位 div1中间*/
+    width: 1000px;
+}
+
+    #div_menu ul {
+        display: inline-block;
+        margin: auto;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+        #div_menu ul li {
+            margin: 0;
+            float: left;
+            height: 100px;
+            text-align: center;
+        }
+
+            #div_menu ul li a {
+                font-size:27px;
+                width: 130px;
+                color: black;
+                padding-top: 10px;
+                display: inline-block;
+                height: 50px;
+                text-decoration: none;
+                cursor:pointer;
+            }
+
+            #div_menu ul li:hover a {
+                color: white;
+                background: #999;
+            }
+
+
+
+
+.right {
+    height: 45px;
+    width: 10%;
+    position: absolute; /*绝对定位 div1右边*/
+    top: 23px;
+    left: 1020px;
+    bottom: 0;
+    right: 10px;
+}
+/*
+.sign {
+    font-size: 17px;
+    font-weight: bold;
+    flex: 2;
+    position: absolute;
+    top: 5px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}*/
+
+    .sign li {
+        text-decoration: none; /*去掉文字前面的圆点*/
+        list-style: none;
+        float: left;
+        border: 1px solid #c7c0c0;
+    }
+
+        .sign li a {
+            color: #040404;
+            text-decoration: none;
+            margin: 0px;
+            display: block;
+            /*内边距（即填充padding）的方式，让每个菜单变得宽一些*/
+        }
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.div2 {
+    width: 1350px;
+    height: 291px;
+    position: relative; /*滚动底部按钮相对于这个定位*/
+}
+
+#baner {
+    width: 1350px;
+    height: 291px;
+}
+
+    #baner .pic {
+        width: 100%;
+        height: 100%;
+        overflow: hidden; /*隐藏图片*/
+    }
+
+li {
+    list-style: none; /*li标签前的圆点*/
+}
+
+#baner .pic ul {
+    width: 1000%;
+    overflow: hidden; /*隐藏图
+            margin-left:-1350px;*/
+}
+
+    #baner .pic ul li {
+        float: left;
+    }
+
+    #baner .pic ul .li {
+        padding: 4px 7px 2px 4px;
+    }
+
+#baner .tab {
+    width: 150px;
+    height: 17px;
+    background: #fff; /*不兼容使用*/
+    background: rgba(255,255,255,0); /*底部滚动按钮背景透明*/
+    position: absolute; /*相对定位*/
+    left: 45%;
+    margin-left: -35px;
+    bottom: 10px;
+    border-radius: 7px; /*滚动按钮背景变角边圆*/
+}
+
+    #baner .tab ul li {
+        width: 15px;
+        height: 15px;
+        border-radius: 100%; /*圆点*/
+        background: #999; /*圆点背景颜色*/
+        float: left;
+        margin: 4px 4px; /*圆点上下左右各为4px*/
+        cursor: pointer; /*鼠标移到圆点上变成手指形状*/
+    }
+
+        #baner .tab ul li .on {
+            background: #f60; /*点击on的li标签变红*/
+        }
+
+#baner .btn {
+    display: none; /*隐藏btn*/
+}
+
+    #baner .btn div {
+        width: 45px;
+        height: 45px;
+        background: #000; /*兼容*/
+        background: rgba(0,0,0,0.3);
+        color: #fff;
+        font-size: 26px;
+        font-weight: bold;
+        text-align: center;
+        line-height: 40px;
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        margin-top: -20px;
+    }
+
+#leftbtn {
+    left: 5px;
+}
+
+#rightbtn {
+    right: 5px;
+}
+
+#baner .btn div .hover {
+    background: rgba(0,0,0,0.6)
+}
+
+
+
+.type {
+    align-content: center;
+    width: 1350px;
+    text-align: center;
+    /*opacity:0.5;透明*/
+    /*border-radius: 7px; 滚动按钮背景变角边圆*/
+}
+
+
+.div3 {
+    display: flex; /*设置div为容器*/
+    flex-direction: column; /*设置列排*/
+    flex: 4; /*分的份数*/
+}
+.IT {
+    display: flex;
+    flex-direction: column; /*设置列排it1 it2*/
+    flex: 2;
+    height:700px;
+    
+}
+.div_1 ul {
+    margin: 0 auto;
+}
+ .div_1 ul li{
+     margin-bottom:27px;
+ }
+
+.div_2 {
+    display: flex;
+    flex: 7;
+    background: #f60;
+}
+
+
+.IT2 {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    width: 760px;
+    margin: auto;
+    height: 340px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.Bott_2 {
+    display: flex;
+    flex: 7;
+}
+
+
+.seelect {
+    width: 1350px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 17px;
+    width: 1350px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.4;
+}
+
+.select-1 {
+    width: 1350px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 27px;
+    width: 1350px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.5;
+}
+
+
+.div4 {
+    background: gray; /*底部灰色*/
+    border-bottom: solid 1px white;
+    width: 100%;
+    height: 200px;
+}

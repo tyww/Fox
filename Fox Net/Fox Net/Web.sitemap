@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="Default.aspx" title="首页"  description="">
+    <siteMapNode url="Position.aspx" title="职位信息"  description="" />
+    <siteMapNode url="Personnel.aspx" title="人才信息"  description="" />
+    <siteMapNode url="" title="会员中心"  description="" />
+  </siteMapNode>
+</siteMap>

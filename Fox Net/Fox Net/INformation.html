@@ -1,0 +1,80 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link href="CSS/Infomation.css" rel="stylesheet" />
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        .Peronhead {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .main-div1 {
+            width: 100%;
+        }
+
+        .main-div2 {
+            width: 1029px;
+            overflow: hidden;
+            margin: 0 auto;
+        }
+
+        .right_Exit {
+            width: 50px;
+            float: right;
+            margin-top: 10px;
+            margin-right: 20px;
+        }
+
+            .right_Exit input {
+                float: left;
+                width: 50px;
+                height: 40px;
+                cursor: pointer;
+            }
+    </style>
+</head>
+<body style="background-color: #e6e0e0;">
+    <div style="height: 100%; background-color: #e6e0e0">
+        <div style="height: 60px; background-color: #808080;" class="main-div1">
+            <div class="main-div2" style="background-color: #808080; height: 60px">
+                <div style="width: 120px; height: 60px; float: left">
+                    <asp:Image ImageUrl="~/Image/Result.png" runat="server" />
+                </div>
+                <div class="right_Exit">
+                    <input id="BtnExit" type="button" value="退出" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="Infomenu" style="height: 50px; background-color: #e6e0e0; font-size: 30px;" class="main-div1">
+        <div style="width: 100%" class="menu_box">
+            <ul class="Infomenu">
+                <li><a href="frmMain.aspx">首页</a></li>
+                <li><a href="Position.aspx">职位</a></li>
+                <li><a href="Infomation.aspx">社区</a></li>
+                <li><a>校园</a></li>
+            </ul>
+        </div>
+        <div class="main-div2" style="background-color: #e6e0e0; height: 100%;"></div>
+    </div>
+    
+    <div style="text-align: center; background-color: #e6e0e0; margin: 150px 0px 0px 0px; height: 251px; width: 1326px; font-size: 20px; opacity: 0.7">
+        <p>
+            <br />
+            <a href="http://www.gd-nf.com.cn/" target="_blank">南方IT学院</a>版权所有
+        </p>
+        <p>
+            服务热线：0756-6811222 0756-6813333
+        </p>
+        <p>
+            CopyRight &copy; 1996-2016 South Vocational College. All Rights Reserved.
+        </p>
+    </div>
+</body>
+</html>

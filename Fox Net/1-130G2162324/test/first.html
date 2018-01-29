@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+      .nav{
+          height: 230px;
+          width: 150px;
+          background-color: #e8e8e8;
+      }
+      .nav ul{
+          list-style: none;
+          position: relative;
+      }
+      .nav ul li{
+          line-height: 30px;
+          text-align: left;
+          padding: 10px 0 0 0;
+      }
+      .nav ul li a{
+          margin: 0;
+          padding: 0;
+          text-decoration: none;
+          color: #000;
+          font-weight: normal;
+      }
+      .nav ul li ul{
+          position: absolute;
+          top: 0;
+          left: 150px;
+          width: 300px;
+          height:180px;
+          display: none;
+          background-color: #e8e8e8;
+      }
+      .nav ul li:hover ul{
+          display: block;
+      }
+      .nav ul li a:hover{
+          color: red;
+      }
+      
+     
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <ul>
+            <li><a href="#">HTML</a>
+            <ul>
+                <li><a href="#">HTML1</a>
+
+                </li>
+                <li><a href="#">HTML2</a>
+                 
+                </li>
+                <li><a href="#">HTML3</a></li>
+                <li><a href="#">HTML4</a></li>
+            </ul>
+        </li>
+            <li><a href="#">CSS3</a>
+            <ul>
+                <li><a href="#">CSS1</a></li>
+                <li><a href="#">CSS2</a></li>
+                <li><a href="#">CSS3</a></li>
+                <li><a href="#">CSS4</a></li>
+            </ul>
+            </li>
+            <li><a href="#">Jquery</a>
+                <ul>
+                        <li><a href="#">Jquery1</a></li>
+                        <li><a href="#">Jquery2</a></li>
+                        <li><a href="#">Jquery3</a></li>
+                        <li><a href="#">Jquery4</a></li>
+                    </ul>
+            </li>
+            <li><a href="#">Javascript</a>
+                <ul>
+                        <li><a href="#">Javascript1</a></li>
+                        <li><a href="#">Javascript2</a></li>
+                        <li><a href="#">Javascript3</a></li>
+                        <li><a href="#">Javascript4</a></li>
+                    </ul>
+            </li>
+            <li><a href="#">Bootstrip</a><ul>
+                <li><a href="#">Bootstrip1</a></li>
+                <li><a href="#">Bootstrip2</a></li>
+                <li><a href="#">Bootstrip3</a></li>
+                <li><a href="#">Bootstrip4</a></li>
+            </ul></li>
+        </ul>
+    </div>
+</body>
+</html>

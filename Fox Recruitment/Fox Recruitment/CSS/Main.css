@@ -1,0 +1,62 @@
+﻿
+.div1{
+    background-color:#DBDBDB;
+    width:1000px;
+    float: left;
+    text-align:center;
+    font-family:微软黑体;
+    font-size:50px;
+}
+.div2{
+    /*border:solid 1px #ff0000;*/
+}
+.div3{
+    float:left;
+    border:solid 1px #ff0000;
+    width:30%
+}
+.div4{
+    float:right;
+    width:100%;
+    height:50%;
+}
+/*------------------neck------------------------*/
+.neck .ltd{
+    float:left;
+    width:30%;
+}
+.neck .rtd{
+    float:right;
+    width:69%
+}
+/*----------------------------------------------*/
+.ltd{
+    width:250px;
+    border:solid 1px #FF0000;
+    text-align:left;
+    vertical-align:top;
+}
+.rtd{
+    text-align:left;
+    border:solid 1px #FF0000;
+    height:100%;
+    vertical-align:top;
+}
+/*---------------------------中间两个div--------------------------*/
+.start{
+    float:left;
+    width:30%;
+    border:solid 1px #FF0000;
+}
+.date{
+    float:right;
+    width:69%;
+    border:solid 1px #FF0000;
+    height: 123px;
+}
+.base{
+    float:right;
+    width:100%;
+    height:55%;
+    padding-bottom:0px
+}

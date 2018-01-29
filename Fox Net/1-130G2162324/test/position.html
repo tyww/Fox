@@ -1,0 +1,74 @@
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Position.aspx.cs" Inherits="Fox_Net.Position" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="CSS/Infomation.css" rel="stylesheet" />
+    <link href="CSS/position.css" rel="stylesheet" />
+    <link href="CSS/Home.css" rel="stylesheet" />
+    <title>Positions</title>
+</head>
+<body style="background: #e6e0e0">
+    <div style="height: 100%; width: 100%">
+        <div style="height: 100%; background-color: #e6e0e0">
+            <div class="main-div2" style="background-color: #808080; height: 60px">
+                <%--<div style="width: 100px; height: 60px; background-color: red; float: left"></div>--%>
+                <div class="position_Info">
+                    <ul>
+                        <li style="list-style: none;"><a href="Infomation.aspx">个人</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="Infomenu" style="height: 80px;" class="main-div1">
+                <div style="width: 100%" class="menu_box">
+                    <ul class="Infomenu">
+                        <li><a href="frmMain.aspx">首页</a></li>
+                        <li><a>职位</a></li>
+                        <li><a>社区</a></li>
+                        <%--<li><a>校园</a></li>--%>
+                    </ul>
+                </div>
+                <div style="height: 60px; margin-top: 0px" class="main-div1">
+                    <div class="main-div2" style="height: 75px">
+                        <div style="height: 40px; width: 1350px; text-align: center">
+                            <p class="seek">
+                                <input type="text" style="height: 40px; width: 600px; border-radius: 7px; /*滚动按钮背景变角边圆/*placeholder 移动鼠标字体消失*/" placeholder="输入职位关键词：如：销售总监等" />
+                                <button type="button" style="border-radius: 7px; cursor: pointer; height: 40px; width: 60px; tab-size: 20px">搜索</button>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main-div2" style="background-color: #ffffff; height: 100%;"></div>
+        </div>
+
+
+
+        <div id="position">
+            <div class="position_left">
+                <div class="left_text">
+                    <div class="job-info">
+                        <h3 title=".net工程师">...</h3>
+                        <p title="12-24万_深圳-福田区_大专及以上_3年以上">
+                            <a href="#" class="area">深圳-福田区</a>
+                            <span class="edu">大专及以上</span>
+                            <span>3年以上</span>
+                        </p>
+                        <p class="time-info clearfix">
+                            <time title="2018年01月23日">2小时以前</time>
+                            <span title="反馈时间以工作日为准，周末和假期时间不会计算在内">投递后：5个工作日内反馈</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="left_text"></div>
+                <div class="left_text"></div>
+                <div class="left_text"></div>
+                <div class="left_text"></div>
+            </div>
+            <div class="position_right"></div>
+        </div>
+    </div>
+</body>
+</html>

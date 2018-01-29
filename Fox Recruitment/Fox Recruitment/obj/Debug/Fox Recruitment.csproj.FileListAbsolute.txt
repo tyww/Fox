@@ -1,0 +1,28 @@
+C:\Users\爱新觉罗  狐狸\Desktop\个人\Fox Recruitment\Fox Recruitment\bin\Fox Recruitment.dll.config
+C:\Users\爱新觉罗  狐狸\Desktop\个人\Fox Recruitment\Fox Recruitment\bin\Fox Recruitment.dll
+C:\Users\爱新觉罗  狐狸\Desktop\个人\Fox Recruitment\Fox Recruitment\bin\Fox Recruitment.pdb
+C:\Users\爱新觉罗  狐狸\Desktop\个人\Fox Recruitment\Fox Recruitment\bin\BLL.dll
+C:\Users\爱新觉罗  狐狸\Desktop\个人\Fox Recruitment\Fox Recruitment\bin\DAL.dll
+C:\Users\爱新觉罗  狐狸\Desktop\个人\Fox Recruitment\Fox Recruitment\bin\Model.dll
+C:\Users\爱新觉罗  狐狸\Desktop\个人\Fox Recruitment\Fox Recruitment\bin\BLL.pdb
+C:\Users\爱新觉罗  狐狸\Desktop\个人\Fox Recruitment\Fox Recruitment\bin\DAL.pdb
+C:\Users\爱新觉罗  狐狸\Desktop\个人\Fox Recruitment\Fox Recruitment\bin\Model.pdb
+C:\Users\爱新觉罗  狐狸\Desktop\个人\Fox Recruitment\Fox Recruitment\obj\Debug\Fox Recruitment.csprojResolveAssemblyReference.cache
+C:\Users\爱新觉罗  狐狸\Desktop\个人\Fox Recruitment\Fox Recruitment\obj\Debug\Fox Recruitment.dll
+C:\Users\爱新觉罗  狐狸\Desktop\个人\Fox Recruitment\Fox Recruitment\obj\Debug\Fox Recruitment.pdb
+C:\Users\爱新觉罗  狐狸\Desktop\Fox Net\Fox Recruitment\Fox Recruitment\bin\Fox Recruitment.dll.config
+C:\Users\爱新觉罗  狐狸\Desktop\Fox Net\Fox Recruitment\Fox Recruitment\bin\Fox Recruitment.dll
+C:\Users\爱新觉罗  狐狸\Desktop\Fox Net\Fox Recruitment\Fox Recruitment\bin\Fox Recruitment.pdb
+C:\Users\爱新觉罗  狐狸\Desktop\Fox Net\Fox Recruitment\Fox Recruitment\bin\BLL.dll
+C:\Users\爱新觉罗  狐狸\Desktop\Fox Net\Fox Recruitment\Fox Recruitment\bin\DAL.dll
+C:\Users\爱新觉罗  狐狸\Desktop\Fox Net\Fox Recruitment\Fox Recruitment\bin\Model.dll
+C:\Users\爱新觉罗  狐狸\Desktop\Fox Net\Fox Recruitment\Fox Recruitment\bin\BLL.pdb
+C:\Users\爱新觉罗  狐狸\Desktop\Fox Net\Fox Recruitment\Fox Recruitment\bin\DAL.pdb
+C:\Users\爱新觉罗  狐狸\Desktop\Fox Net\Fox Recruitment\Fox Recruitment\bin\Model.pdb
+C:\Users\爱新觉罗  狐狸\Desktop\Fox Net\Fox Recruitment\Fox Recruitment\obj\Debug\Fox Recruitment.csprojResolveAssemblyReference.cache
+C:\Users\爱新觉罗  狐狸\Desktop\Fox Net\Fox Recruitment\Fox Recruitment\obj\Debug\Fox Recruitment.dll
+C:\Users\爱新觉罗  狐狸\Desktop\Fox Net\Fox Recruitment\Fox Recruitment\obj\Debug\Fox Recruitment.pdb
+C:\Users\狐狸\Desktop\Fox Net\Fox Recruitment\Fox Recruitment\obj\Debug\Fox Recruitment.csprojResolveAssemblyReference.cache
+C:\Users\狐狸\Desktop\Fox Net\Fox Recruitment\Fox Recruitment\obj\Debug\Fox Recruitment.csproj.CoreCompileInputs.cache
+C:\Users\狐狸\Desktop\Fox Net\Fox Recruitment\Fox Recruitment\obj\Debug\Fox Recruitment.dll
+C:\Users\狐狸\Desktop\Fox Net\Fox Recruitment\Fox Recruitment\obj\Debug\Fox Recruitment.pdb

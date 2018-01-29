@@ -1,0 +1,41 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main.master.cs" Inherits="Fox_Recruitment.Main" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Fox Net</title>
+    <link href="CSS/Main.css" rel="stylesheet"/>
+</head>
+<body>
+    <div class="div1">
+        Fet Net
+    </div>
+    <div class="neck">
+        <p class="ltd">
+                    <asp:HyperLink ID="hyLogin" NavigateUrl="~/Login.aspx" runat="server">登录|</asp:HyperLink>
+                    <asp:HyperLink ID="hyRegist" NavigateUrl="~/Register.aspx" runat="server">注册|</asp:HyperLink>
+                    <%--<asp:LinkButton ID="btnExit" runat="server" OnClick="btnExit_Click">安全退出</asp:LinkButton>--%>
+         </p>
+         <p class="rtd">
+                <asp:SiteMapPath ID="SiteMapPath1" runat="server">
+                </asp:SiteMapPath>
+         </p>
+    </div>
+    <div>
+        <div class="start">
+            <asp:TreeView ID="trvCategory" runat="server">
+                </asp:TreeView>
+        </div>
+    </div>
+        <div class="date">
+            <div class="div4">企业推荐
+                
+            </div>
+            <div class="base" style="margin-bottom:0px; padding-bottom:0px;">
+                人才推荐
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,30 @@
+C:\Users\爱新觉罗  狐狸\Desktop\个人\Fox Recruitment\DAL\bin\Debug\DAL.dll
+C:\Users\爱新觉罗  狐狸\Desktop\个人\Fox Recruitment\DAL\bin\Debug\DAL.pdb
+C:\Users\爱新觉罗  狐狸\Desktop\个人\Fox Recruitment\DAL\bin\Debug\Model.dll
+C:\Users\爱新觉罗  狐狸\Desktop\个人\Fox Recruitment\DAL\bin\Debug\Model.pdb
+C:\Users\爱新觉罗  狐狸\Desktop\个人\Fox Recruitment\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+C:\Users\爱新觉罗  狐狸\Desktop\个人\Fox Recruitment\DAL\obj\Debug\DAL.dll
+C:\Users\爱新觉罗  狐狸\Desktop\个人\Fox Recruitment\DAL\obj\Debug\DAL.pdb
+C:\Users\爱新觉罗  狐狸\Desktop\Fox Net\Fox Recruitment\DAL\bin\Debug\DAL.dll
+C:\Users\爱新觉罗  狐狸\Desktop\Fox Net\Fox Recruitment\DAL\bin\Debug\DAL.pdb
+C:\Users\爱新觉罗  狐狸\Desktop\Fox Net\Fox Recruitment\DAL\bin\Debug\Model.dll
+C:\Users\爱新觉罗  狐狸\Desktop\Fox Net\Fox Recruitment\DAL\bin\Debug\Model.pdb
+C:\Users\爱新觉罗  狐狸\Desktop\Fox Net\Fox Recruitment\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+C:\Users\爱新觉罗  狐狸\Desktop\Fox Net\Fox Recruitment\DAL\obj\Debug\DAL.dll
+C:\Users\爱新觉罗  狐狸\Desktop\Fox Net\Fox Recruitment\DAL\obj\Debug\DAL.pdb
+C:\Users\狐狸\Desktop\Fox Net\Fox Recruitment\DAL\bin\Debug\DAL.dll
+C:\Users\狐狸\Desktop\Fox Net\Fox Recruitment\DAL\bin\Debug\DAL.pdb
+C:\Users\狐狸\Desktop\Fox Net\Fox Recruitment\DAL\bin\Debug\Model.dll
+C:\Users\狐狸\Desktop\Fox Net\Fox Recruitment\DAL\bin\Debug\Model.pdb
+C:\Users\狐狸\Desktop\Fox Net\Fox Recruitment\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+C:\Users\狐狸\Desktop\Fox Net\Fox Recruitment\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\狐狸\Desktop\Fox Net\Fox Recruitment\DAL\obj\Debug\DAL.dll
+C:\Users\狐狸\Desktop\Fox Net\Fox Recruitment\DAL\obj\Debug\DAL.pdb
+F:\桌面个人项目\Fox Net\Fox Recruitment\DAL\bin\Debug\DAL.dll
+F:\桌面个人项目\Fox Net\Fox Recruitment\DAL\bin\Debug\DAL.pdb
+F:\桌面个人项目\Fox Net\Fox Recruitment\DAL\bin\Debug\Model.dll
+F:\桌面个人项目\Fox Net\Fox Recruitment\DAL\bin\Debug\Model.pdb
+F:\桌面个人项目\Fox Net\Fox Recruitment\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+F:\桌面个人项目\Fox Net\Fox Recruitment\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+F:\桌面个人项目\Fox Net\Fox Recruitment\DAL\obj\Debug\DAL.dll
+F:\桌面个人项目\Fox Net\Fox Recruitment\DAL\obj\Debug\DAL.pdb

@@ -1,0 +1,219 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-size: 12px;
+        }
+
+        .topbar {
+            width: 500px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        #gray {
+            width: 100%;
+            height: 100%;
+            background-color: #D9D9D9;
+            position: fixed;
+            top: 0px;
+            display: none;
+            z-index: 98;
+            opacity: 0.6;
+        }
+
+        .Login_Click a {
+            font-size: 16px;
+        }
+
+        .Login {
+            position: absolute;
+            margin: auto;
+            top: 20%;
+            left: 30%;
+            width: 500px;
+            height: 400px;
+            background-color: #fff;
+            border: 1px solid white;
+            display: none;
+            z-index: 99;
+        }
+
+        .title {
+            height: 50px;
+            border-bottom: 2px solid white;
+            background-color: #f7f7f7;
+            position: relative;
+            cursor: move;
+        }
+
+        .title_left {
+            font-size: 18px;
+            padding: 10px 10px;
+            font-weight: normal;
+            line-height: 21px;
+            float: left;
+        }
+
+        p {
+            text-align: center;
+        }
+
+        .title_right {
+            float: right;
+        }
+
+            .title_right a.guanbi {
+                display: block;
+                background: url(images/popup_guanbi.png) no-repeat 0px 0px;
+                width: 35px;
+                height: 35px;
+                position: absolute;
+                top: 8px;
+                right: 10px;
+                cursor: pointer;
+            }
+
+                .title_right a.guanbi:hover {
+                    background: url(images/popup_guanbi.png) no-repeat 0px -35px;
+                }
+
+        .Nav {
+            height: 50px;
+            width: 100%;
+            background-color: gray;
+            border: 1px solid;
+        }
+
+            .Nav li {
+                list-style-type: none;
+                float: left;
+                min-width: 100px;
+                line-height: 50px;
+                text-align: center;
+            }
+
+                .Nav li a {
+                    display: block;
+                    margin: 0;
+                    padding: 0;
+                    color: white;
+                    font-size: 20px;
+                }
+
+                    .Nav li a:hover {
+                        background-color: blue;
+                    }
+
+        #btnAJAX {
+            width: 200px;
+            height: 30px;
+            border: 1px solid;
+            cursor: pointer;
+            background-color: white;
+            color: black;
+            border-color: green;
+        }
+    </style>
+</head>
+<body>
+    <div class="topbar">
+        <div class="Login_Click">
+            <a href="#" class="dl">登入</a>
+        </div>
+    </div>
+    <div class="Nav">
+        <ul>
+            <li>
+                <a href="#">首页</a>
+            </li>
+            <li>
+                <a href="#">关于慕课</a>
+            </li>
+            <li>
+                <a href="#">新闻动态</a>
+            </li>
+            <li>
+                <a href="#">课程中心</a>
+            </li>
+            <li>
+                <a href="#">在线课程</a>
+            </li>
+            <li>
+                <a href="#">人才招聘</a>
+            </li>
+        </ul>
+    </div>
+    <div id="gray"></div>
+    <div class="Login" id="Login">
+        <div class="title">
+            <div class="title_left">
+                账号登入：
+            </div>
+            <div class="title_right">
+                <a class="guanbi"></a>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.js"></script>
+    <script>
+        $(function () {
+            //show出登入界面
+            $(".dl").click(function () {
+                $("#gray").show();
+                $("#Login").fadeIn(200);
+            });
+            //隐藏登入界面
+            $(".guanbi").click(function () {
+                $("#gray").hide();
+                $("#Login").fadeOut(200);
+            });
+            //窗口水平居中
+            $(window).resize(function () {
+                tc_center();
+            });
+
+            function tc_center() {
+                var _top = ($(window).height() - $(".Login").height()) / 2;
+                var _left = ($(window).width() - $(".Login").width()) / 2;
+
+                $(".Login").css({ top: _top, left: _left });
+            }
+
+            $(".title").mousedown(function (e) {
+                $(this).css("cursor", "move");//改变鼠标指针的形状
+                var offset = $(this).offset();//DIV在页面的位置
+                var x = e.pageX - offset.left;//获得鼠标指针离DIV元素左边界的距离
+                var y = e.pageY - offset.top;//获得鼠标指针离DIV元素上边界的距离
+                $(document).bind("mousemove", function (ev) { //绑定鼠标的移动事件，因为光标在DIV元素外面也要有效果，所以要用doucment的事件，而不用DIV元素的事件
+
+                    $(".Login").stop();//加上这个之后
+
+                    var _x = ev.pageX - x;//获得X轴方向移动的值
+                    var _y = ev.pageY - y;//获得Y轴方向移动的值
+
+                    $(".Login").animate({ left: _x + "px", top: _y + "px" }, 5);
+                });
+
+            });
+            $(document).mouseup(function () {
+                $(".Login").css("cursor", "default");
+                $(this).unbind("mousemove");
+            });
+        });
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,38 @@
+C:\Users\爱新觉罗  狐狸\Desktop\个人\Fox Recruitment\BLL\bin\Debug\BLL.dll
+C:\Users\爱新觉罗  狐狸\Desktop\个人\Fox Recruitment\BLL\bin\Debug\BLL.pdb
+C:\Users\爱新觉罗  狐狸\Desktop\个人\Fox Recruitment\BLL\bin\Debug\DAL.dll
+C:\Users\爱新觉罗  狐狸\Desktop\个人\Fox Recruitment\BLL\bin\Debug\Model.dll
+C:\Users\爱新觉罗  狐狸\Desktop\个人\Fox Recruitment\BLL\bin\Debug\DAL.pdb
+C:\Users\爱新觉罗  狐狸\Desktop\个人\Fox Recruitment\BLL\bin\Debug\Model.pdb
+C:\Users\爱新觉罗  狐狸\Desktop\个人\Fox Recruitment\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+C:\Users\爱新觉罗  狐狸\Desktop\个人\Fox Recruitment\BLL\obj\Debug\BLL.dll
+C:\Users\爱新觉罗  狐狸\Desktop\个人\Fox Recruitment\BLL\obj\Debug\BLL.pdb
+C:\Users\爱新觉罗  狐狸\Desktop\Fox Net\Fox Recruitment\BLL\bin\Debug\BLL.dll
+C:\Users\爱新觉罗  狐狸\Desktop\Fox Net\Fox Recruitment\BLL\bin\Debug\BLL.pdb
+C:\Users\爱新觉罗  狐狸\Desktop\Fox Net\Fox Recruitment\BLL\bin\Debug\DAL.dll
+C:\Users\爱新觉罗  狐狸\Desktop\Fox Net\Fox Recruitment\BLL\bin\Debug\Model.dll
+C:\Users\爱新觉罗  狐狸\Desktop\Fox Net\Fox Recruitment\BLL\bin\Debug\DAL.pdb
+C:\Users\爱新觉罗  狐狸\Desktop\Fox Net\Fox Recruitment\BLL\bin\Debug\Model.pdb
+C:\Users\爱新觉罗  狐狸\Desktop\Fox Net\Fox Recruitment\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+C:\Users\爱新觉罗  狐狸\Desktop\Fox Net\Fox Recruitment\BLL\obj\Debug\BLL.dll
+C:\Users\爱新觉罗  狐狸\Desktop\Fox Net\Fox Recruitment\BLL\obj\Debug\BLL.pdb
+C:\Users\狐狸\Desktop\Fox Net\Fox Recruitment\BLL\bin\Debug\BLL.dll
+C:\Users\狐狸\Desktop\Fox Net\Fox Recruitment\BLL\bin\Debug\BLL.pdb
+C:\Users\狐狸\Desktop\Fox Net\Fox Recruitment\BLL\bin\Debug\DAL.dll
+C:\Users\狐狸\Desktop\Fox Net\Fox Recruitment\BLL\bin\Debug\Model.dll
+C:\Users\狐狸\Desktop\Fox Net\Fox Recruitment\BLL\bin\Debug\DAL.pdb
+C:\Users\狐狸\Desktop\Fox Net\Fox Recruitment\BLL\bin\Debug\Model.pdb
+C:\Users\狐狸\Desktop\Fox Net\Fox Recruitment\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+C:\Users\狐狸\Desktop\Fox Net\Fox Recruitment\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\狐狸\Desktop\Fox Net\Fox Recruitment\BLL\obj\Debug\BLL.dll
+C:\Users\狐狸\Desktop\Fox Net\Fox Recruitment\BLL\obj\Debug\BLL.pdb
+F:\桌面个人项目\Fox Net\Fox Recruitment\BLL\bin\Debug\BLL.dll
+F:\桌面个人项目\Fox Net\Fox Recruitment\BLL\bin\Debug\BLL.pdb
+F:\桌面个人项目\Fox Net\Fox Recruitment\BLL\bin\Debug\DAL.dll
+F:\桌面个人项目\Fox Net\Fox Recruitment\BLL\bin\Debug\Model.dll
+F:\桌面个人项目\Fox Net\Fox Recruitment\BLL\bin\Debug\DAL.pdb
+F:\桌面个人项目\Fox Net\Fox Recruitment\BLL\bin\Debug\Model.pdb
+F:\桌面个人项目\Fox Net\Fox Recruitment\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+F:\桌面个人项目\Fox Net\Fox Recruitment\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+F:\桌面个人项目\Fox Net\Fox Recruitment\BLL\obj\Debug\BLL.dll
+F:\桌面个人项目\Fox Net\Fox Recruitment\BLL\obj\Debug\BLL.pdb

@@ -1,0 +1,183 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="CSS/Home.css" rel="stylesheet" />
+    <style>
+    </style>
+</head>
+<body>
+    <div id="One">
+        <div class="div1">
+            <div class="logo">图标</div>
+            <div class="middle">
+                <ul class="menu">
+                    <li><a>首页&nbsp;</a></li>
+                    <li><a>职位&nbsp;</a></li>
+                    <li><a>社区&nbsp;</a></li>
+                    <li><a>校园</a></li>
+
+                </ul>
+            </div>
+            <div class="right">
+                <ul class="sign">
+                    <li><a>登录</a></li>
+                    <li><a>注册</a></li>
+                </ul>
+            </div>
+        </div>
+        <div>
+            <div class="div2">
+                <div id="baner">
+                    <div class="pic">
+                        <ul>
+                            <li><a href=""></a><img src="Image/中国银行.jpg" /></li>
+                            <li><a href=""></a><img src="Image/奔驰.jpg" /></li>
+                            <li><a href=""></a><img src="Image/中国电信.jpg" /></li>
+                            <li><a href=""></a><img src="Image/中国电建.jpg" /></li>
+                            <li><a href=""></a><img src="Image/中国银行.jpg" /></li>
+                            <li><a href=""></a><img src="Image/奔驰.jpg" /></li>
+                        </ul>
+                    </div>
+                    <div class="tab">
+                        <ul>
+                            <li class="on"></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                    <div class="btn">
+                        <div id="leftbtn">&lt;</div>
+                        <div id="rightbtn">&rang;</div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="div3">
+                <div style="height:40px;width:1350px;text-align:center">
+                    <p class="type">
+                        <input type="text" style="height:40px;width:700px;border-radius: 7px; /*滚动按钮背景变角边圆/*placeholder 移动鼠标字体消失*/" placeholder="输入职位关键词：如：销售总监等" />
+                        <button type="button" style="border-radius:7px;cursor:pointer;height:40px;width:60px;tab-size:20px">搜索</button>
+                    </p>
+                </div>
+                <div class="seelect">
+                    <a>热门搜索：</a>
+                    &nbsp;
+                    <a>投资经理</a>
+                    &nbsp;&nbsp;&nbsp;
+                    <a>土建工程师</a>
+                    &nbsp;&nbsp;&nbsp;
+                    <a>销售</a>
+                    &nbsp;&nbsp;&nbsp;
+                    <a>产品经理</a>
+                    &nbsp;&nbsp;&nbsp;
+                    <a>java</a>
+                    &nbsp;&nbsp;&nbsp;
+                    <a>人力资源</a>
+                </div>
+                <div class="select-1">
+                    <a href="https://www.liepin.com/it/">IT-互联网</a>
+                    &nbsp;&nbsp;&nbsp;
+                    <a>房地产</a>                                      
+                    &nbsp;&nbsp;&nbsp;
+                    <a>金融</a>
+                    &nbsp;&nbsp;&nbsp;
+                    <a>消费品</a>
+                    &nbsp;&nbsp;&nbsp;
+                    <a>汽车-制造</a>
+                    &nbsp;&nbsp;&nbsp;
+                    <a>医疗-化工</a>
+                </div>
+            </div>
+            
+
+
+        </div>
+        <div class="div4"></div>
+    </div>
+    <script type="text/javascript" src="JS/jquery-1.7.2.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            var $tabLi = $('#baner .tab li');
+            var $picUl = $('#baner .pic ul');
+            var $baner = $('#baner');
+            var $btn = $('#baner .btn');
+            var $btnDiv = $('#baner .btn div');
+            var imgWidth = $('#baner .pic li').width();
+            var index = 0;
+            var nowTime = new Date();/*等于当前时间*/
+
+            $tabLi.click(function () {
+                index = $(this).index();
+                $(this).addClass('on').siblings().removeAttr
+                $picUl.animate({
+                    marginLeft: -imgWidth * (index+1) + 'px'
+                }, 300);
+            });
+
+            $baner.hover(function () {
+                $btn.show();
+                clearInterval(timer);
+            }, function () {
+                $btn.hide();
+
+                time = setInterval(function () {
+                    index++;
+                    fnct();
+                }, 3000);/*轮播滚动时间间隔时长*/
+            })
+
+            $btnDiv.hover(function () {
+                $(this).addClass('hover');
+            }, function () {
+                $(this).removeClass('hover');
+            }).click(function () {
+                if (new Date() - nowTime > 350) {
+
+                    nowTime = new Date();
+
+                    var i = $(this).index();
+                    i ? index++ : index--;/*简化下面的if*/
+                    fnct();
+
+                }
+            }).mousedown(function () {
+                    return false;/*鼠标按下清楚默认事件*/
+                });
+
+            var timer = setInterval(function () {
+                index++;
+                fnct();
+            }, 3000);/*轮播滚动时间间隔时长*/
+
+            function fnct()
+            {
+                var liIndex = index;
+                if (liIndex >= $tabLi.length)
+                {
+                    liIndex = 0;
+                }
+                else if (index < 0) {
+                    liIndex = $tabLi.length - 1;
+                }
+                $tabLi.eq(liIndex).addClass('on').siblings().removeAttr
+                $picUl.animate({
+                    marginLeft: -imgWidth * (index + 1) + 'px'
+                }, 300, function () {
+                    if (index == $tabLi.length) {
+                        $picUl.css('marginLeft', -imgWidth + 'px');
+                        index = 0;
+                    }
+                    else if (index < 0) {
+                        $picUl.css('marginLeft', -imgWidth * ($tabLi.length) + 'px');
+                        index = $tabLi.length - 1;
+                    }
+                });
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,112 @@
+﻿
+.main-div1 {
+    width: 100%;
+}
+
+.main-div2 {
+    width: 1029px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.position_Info {
+    width: 50px;
+    float: right;
+    margin-top: 0px;
+    margin-right: 90px;
+}
+    .position_Info ul{
+        float: left;
+        width: 100px;
+        height: 20px;
+        cursor: pointer;
+        font-size:20px;
+    }
+    .position_Info ul li:hover a{
+        color:white;
+        font-size:25px;
+        background:#808080;
+        cursor:pointer;
+
+    }
+.seek {
+    /*搜索*/
+    align-content: center;
+    width: 1350px;
+    text-align: center;
+    margin-left:-160px;
+    margin-top:20px;
+}
+/*职业框*/
+#position {
+    height: 100%;
+    width: 1029px;
+    margin:0 auto;
+    padding-top:80px;
+    /*background-color: #ffffff;*/
+
+    /*display:flex;*/
+    /*flex-direction: column;
+    flex:3;*/
+}
+#position div{
+    float:left;
+}
+.position_left {
+    width: 60%;
+    /*background-color: rebeccapurple;*/
+    height:100%;
+    margin-right: 20px;
+}
+.left_text{
+    height:120px;
+    width:100%;
+    background-color:royalblue;
+    margin-bottom:30px;
+}
+.position_right{
+    width:38%;
+    background-color:palegreen;
+    height:100px;
+}
+
+.content {
+    width: 472px;
+    height: 126px;
+    background-color: #fff;
+    border: 1px solid #E5E5E5;
+    line-height: 30px;
+    padding: 18px 0 0 40px;
+    margin: 5px 0 0 0;
+}
+
+    .content h2 {
+        font-weight: normal;
+    }
+
+    .content a {
+        text-decoration: none;
+    }
+
+    .content h2 a {
+        color: #00528c
+    }
+
+    .content p {
+        display: block;
+        margin: 10px 0 0 0;
+        font-size: 15px;
+    }
+
+        .content p a {
+            padding-left: 20px;
+            color: #525252;
+        }
+
+            .content p a:nth-child(1) {
+                padding-left: 0;
+            }
+
+.txt-waring {
+    color: #ff6600;
+}
